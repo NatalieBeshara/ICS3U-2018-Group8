@@ -82,7 +82,7 @@ class ViewController : UIViewController {
         view.backgroundColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
         self.view = view
         
-        instructionsLabel.text = "Enter the all numerical coefficants in your quadratic equation, and we will tell you its roots. (nan = no x-intercept)"
+        instructionsLabel.text = "Enter the all numerical coefficants in your quadratic equation, and we will tell you its roots."
         instructionsLabel.textColor = #colorLiteral(red: 0.0, green: 0.0, blue: 0.0, alpha: 1.0)
         view.addSubview(instructionsLabel)
         instructionsLabel.translatesAutoresizingMaskIntoConstraints = false
